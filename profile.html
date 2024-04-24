@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Masters</title>
+    <link rel="icon" type="image/png" href="Images/favicon.png" >
+    <!--Normalize-->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!--Font Awsome-->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <!-- profile css -->
+    <link rel="stylesheet" href="./CSS/profile.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+                <span><span>Game</span>Masters</span>
+            </a>
+            <div class="pages-box">
+                <i class="fas fa-bars" id="toggle-menu">
+                    <i class="fa-solid fa-angle-down" id="menu-arrow"></i>
+                </i>
+                <ul class="pages" id="pages-links">
+                    <div class="col">
+                        <li><a href="index.html" title="Home"><i class="fa-solid fa-house fa-fw"></i>Home</a></li>
+                        <li><a href="playstation.html" title="Playstation"><i class="fa-brands fa-playstation fa-fw"></i>Playstation</a></li>
+                        <li><a href="xbox.html" title="Xbox"><i class="fa-brands fa-xbox fa-fw"></i>Xbox</a></li>
+                        <li><a href="pc.html" title="PC"><i class="fa-solid fa-desktop fa-fw"></i>PC</a></li>
+                        <li><a href="trending.html"><i class="fa-solid fa-fire"></i>Trending</a></li>
+                        <li><a href="support.html" title="Supports"><i class="fa-solid fa-headset fa-fw"></i>Supports</a></li>
+                        <li><a href="about.html" title="About Us"><i class="fa-solid fa-circle-info fa-fw"></i>About Us</a></li>
+                        <li><a href="brands.html" title="Brands"><i class="fa-solid fa-globe fa-fw"></i>Brands</a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="coming-soon.html" title="coming soon"><i class="fa-solid fa-hourglass-half fa-fw"></i>Coming Soon</a></li>
+                        <li><a href="game-reviews.html" title="Game Reviews"><i class="fa-solid fa-comment fa-fw"></i>Game Reviews</a></li>
+                        <li><a href="gaming-news.html" title="gaming news"><i class="fa-regular fa-newspaper fa-fw"></i>Gaming News</a></li>
+                        <li><a href="hardware.html" title="Hardware"><i class="fa-solid fa-microchip fa-fw"></i>Hardware</a></li>
+                        <li><a href="nintendo.html" title="nintendo"><i class="fa-solid fa-puzzle-piece fa-fw"></i>Nintendo</a></li>
+                        <li><a href="terms.html" title="nintendo"><i class="fa-solid fa-file fa-fw"></i>Terms</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="rightOptions">
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Account</span>
+                    <ul class="acc">
+                        <li><a href="profile.html"><i class="fa-solid fa-circle-user"></i>Profile</a></li>
+                        <li><a href="signin.html"><i class="fa-solid fa-arrow-right-to-bracket fa-flip-horizontal" id="sign-in-or-out"></i>Sign In</a></li>
+                    </ul>
+                </div>
+                <a href="cart.html" class="cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-counter">0</span>
+                </a>
+                <div class="theme-mode" id="theme">
+                    <i class="fa-solid fa-moon fa-fw" id="theme-icon" ></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- =======================Start Your Page Here======================= -->
+<div class="contentofmenu">
+    
+    
+    <!--dashboardboxes and user image -->
+    <div class="dashboard">
+        <div class="user_image_around">
+            <div class="user_image">
+                <img src="images\user_pic.png" alt="profile"></img>
+                <h2>Ezzeldeen Saleh</h2>
+            </div>
+        </div>
+
+        <div class="title-info">
+            <p>dashboard</p>
+        </div>
+
+        <div class="dashdivision">
+            <div class="dashboxes">
+                <h2>username</h2>
+                <p>Ezzeldeen</p>
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+
+            <div class="dashboxes">
+                <h2>time-left:</h2>
+                <p id="timer"></p>
+                <i class="fas fa-clock "></i>
+            </div>
+
+            <div class="dashboxes">
+                <h2>score</h2>
+                <p>1400</p>
+            </div>
+
+            <div class="dashboxes">
+                <h2>your game</h2>
+                <p>20 games</p>
+                <i class="fa fa-gamepad" aria-hidden="true"></i>
+            </div>
+
+            <div class="dashboxes">
+                <h2>balance</h2>
+                <p>1200 $</p>
+                <i class="fas fa-money-bill    "></i>
+                
+            </div>
+
+            <div class="dashboxes">
+                <h2>nickname</h2>
+                <p>leader</p>
+                <i class="fa fa-bolt" aria-hidden="true"></i>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="dashboard2">
+        <div class="title-info">
+            <p>achivment</p>
+        </div>
+
+        <div class="dashdivision2">
+
+            <div class="dashboxes">
+                <h3>progress:</h3>
+                <div class="progress"> 
+                    <p>strategy:</p>
+                    <div class="skill strategy"><p>60%</p></div> 
+                </div> 
+
+                <div class="progress"> 
+                    <p>strenght</p>
+                    <div class="skill strength"><p>40%</p></div> 
+                </div> 
+
+            </div>
+
+            <div class="dashboxes">
+                <h3>rank <i class="fas fa-medal "></i></h3>
+                
+                <img src="Images/bronze-medal.png " width="64" height="64" >
+                <span>bronze</span>
+                
+                
+                
+            </div>
+
+        </div>
+</div>
+
+<!-- tis addfreind slider-->
+
+
+
+
+<section>
+<div class="bodyofcard">  
+ <div class="swiper mySwiper containerallplus">
+    <div class="swiper-wrapper contentplus">
+        <div class="swiper-slide card">
+
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="Images/ammar-amr.png" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="Images/abdelrahman-adel.png" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="Images/8013df7528735ecc2506a779a968e846.jpg" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="Images/abdo.nader.jpg" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+            <div class="cardcontent">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="socialmedia">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="name-profession">
+                    <span class="name">your name</span>
+                    <span class="profession">web developer</span>
+                </div>
+
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+
+                </div>
+
+                <div class="button2">
+                    <button class="aboutme">show</button>
+                    <button class="add">add</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div> 
+
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
+</section>
+
+
+
+
+
+
+</div> <!--body of card end tag -->
+
+
+<!--all side menuw content -->
+    <div class="menuedition">
+        
+        <div id="transtion">
+            <img src="Images/icons8-workstation-96.png" width="50" height="50" class="icon" id="icon"></img>
+            <div id="contenthidden" class="contenthidden"> go to your app see your avalibale stoarge see you avalibale app</div>
+            <a href="#" id="buttons">My Apps</a>
+        </div>
+
+        <div id="transtion">
+            <img src="Images/icons8-edit-120.png" width="50" height="50" class="icon" id="icon1"></img>
+            <div id="contenthidden1" class="contenthidden"> edit your profile to acees your freind on our websit </div>
+            <a href="#" id="buttons"> Edit Profile</a>
+        </div>
+
+        <div id="transtion">
+            <img src="Images/icons8-subscription-96.png" width="50" height="50" class="icon" id="icon2" >
+            <!-- animation of appearing text on hover -->
+            <div id="contenthidden2" class="contenthidden"> with subscribe you will get fast download for game and alot of games for free in our game pass  </div>
+            <a href="#" id="buttons"> subscribe</a>
+        </div>
+
+        <div id="transtion">
+            <img src="Images/icons8-shopping-cart-96.png" width="50" height="50" class="icon" id="icon3">
+            <div id="contenthidden3" class="contenthidden"> order now from our store it have all thing you need for gaming setup </div>
+            <a href="#" id="buttons"> ORDER</a>
+        
+        </div>
+
+        <div id="transtion">
+            <img src="Images/icons8-game-controller-100.png" width="50" height="50" class="icon" id="icon4"></img>
+            <div id="contenthidden4" class="contenthidden"> play games we have more than 100 game on each consule </div>
+            <a href="#" id="buttons"> continue playing</a>   
+        </div>
+
+    </div><!-- menuedition end tag-->
+
+</div>   <!-- contentofmenu end tag-->
+
+
+
+
+<div class="animated_text">
+    <div class="line1">play</div>
+    <div class="line1">setup</div>
+    <div class="line1">hardware</div>
+    <div class="line1"> software</div>
+</div>
+<br><br><br>
+
+
+<!--  slider wirh diffrent style from slider 1   -->
+<div class="slider2postionedit">
+    <div class="wrapper">
+        <i class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+            <img src="Images/apex.png" alt="">
+            <img src="Images/Stray-Review.webp" alt="">
+            <img src="Images/Destiny-2.png" alt="">
+            <img src="Images/fortnite.png" alt="">
+            <img src="Images/callofduty.png" alt="">
+            <img src="Images/ark1.png" alt="">
+        </div>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+</div>
+
+
+
+
+<div class="container33">
+    <div class="nav">
+        <span class="one active" onclick="changecolor(event)" ></span>
+        <i class="one" ></i>
+        <span class="two" onclick="changecolor(event)"></span>
+        <i class="two"></i>
+        <span class="three" onclick="changecolor(event)"></span>
+        <i class="three"></i>
+        <span class="four" onclick="changecolor(event)"></span>
+        <i class="four"></i>
+        <img src="610EcKy3MRL._AC_SL1500_.jpg">
+    </div>
+</div>
+<script>
+    function changecolor(event){
+        document.querySelectorAll('span.active').forEach(function(item){
+          item.classList.remove('active')
+        })
+        event.target.classList.add('active')
+
+    }
+</script>
+
+
+
+
+
+
+<!-- =======================End Your Page Here======================= -->
+
+    <footer>
+        <div class="container">
+            <div class="box">
+                <h3>Game Masters</h3>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/" class="twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" class="youtube"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                <p class="text">
+                    Explore endless worlds of gaming adventure with GameStore. Discover the latest releases, join our community, and level up your gaming experience today.
+                </p>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Cairo, Helwan University, Faculty of Computer Science and Artificial Intelligence</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                    <span>+20123453459</span>
+                    <span>+20173765432</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Copyright &copy; 2024 GameMasters. All rights reserved.</p>
+    </footer>
+    <script src="profile.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+</body>
+</html>
